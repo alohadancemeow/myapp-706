@@ -21,4 +21,4 @@ X_new = np.array([[x1,x2,x3,x4]])
 model.predict(X_new)
 
 st.write("## Prediction Result")
-st.write("Species: ", predict[0)
+st.write("Species: ", predict[0])
