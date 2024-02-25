@@ -8,8 +8,6 @@ import streamlit as st
 
 model = pickle.load(open('per_model-706.sav', 'rb'))
 
-pickle.dump(model, open('per_model-706.sav', 'wb'))
-
 st.title("Iris Species Prediction using Perceptron")
 
 x1 = st.slider('Select Input1', 0.0, 10.0, 3.0)
