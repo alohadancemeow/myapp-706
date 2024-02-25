@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.linear_model import Perceptron
 
 # Install Streamlit
-!pip install streamlit
+# !pip install streamlit
 import streamlit as st
 
 pickle.dump(model, open('per_model-706.sav', 'wb'))
