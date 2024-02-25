@@ -1,4 +1,1 @@
 numpy
-pandas
-streamlit
-sklearn == 1.3.2
