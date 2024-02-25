@@ -1,6 +1,6 @@
 import pickle
 import numpy as np
-import padas as pd
+import pandas as pd
 from sklearn.linear_model import Perceptron
 
 # Install Streamlit
