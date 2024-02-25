@@ -6,9 +6,9 @@ from sklearn.linear_model import Perceptron
 # !pip install streamlit
 import streamlit as st
 
-pickle.dump(model, open('per_model-706.sav', 'wb'))
-
 model = pickle.load(open('/content/per_model-706.sav', 'rb'))
+
+pickle.dump(model, open('per_model-706.sav', 'wb'))
 
 st.title("Iris Species Prediction using Perceptron")
 
