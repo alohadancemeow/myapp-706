@@ -6,7 +6,7 @@ from sklearn.linear_model import Perceptron
 # !pip install streamlit
 import streamlit as st
 
-model = pickle.load(open('/content/per_model-706.sav', 'rb'))
+model = pickle.load(open('per_model-706.sav', 'rb'))
 
 pickle.dump(model, open('per_model-706.sav', 'wb'))
 
