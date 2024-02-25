@@ -1,5 +1,6 @@
 import pickle
 import numpy as np
+import padas as pd
 from sklearn.linear_model import Perceptron
 
 # Install Streamlit
@@ -16,6 +17,8 @@ x3 = st.slider('Select Input3', 0.0, 10.0, 4.0)
 x4 = st.slider('Select Input4', 0.0, 10.0, 7.0)
 
 X_new = np.array([[x1,x2,x3,x4]])
-X_new
 
 model.predict(X_new)
+
+st.write("## Prediction Result")
+st.write("Species: ", predict[0)
